@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Demo</title>
+</head>
+<style>
+    button{
+    background-color: #5151ee;
+     color: #eee;
+    padding: 15px 25px;
+    border: none;
+    }
+    button:hover{
+        background-color: #d6336c;
+    }
+
+</style>
+
+<body>
+
+    <h1>AJAX</h1>
+    <h2>Asysnchronous</h2>
+    <h2>Javascript</h2>
+    <h2>AND</h2>
+    <h2 id="hh">XML</h2>
+
+    <p id="pp">Here new data will be loaded!</p>
+
+    <button type="button" id="toggler"  onclick="change()">Click</button>    
+    <button id="mybtn">Click Me!</button> 
+                                                        <!-- event handling -->
+
+    <script>
+        function change()
+        {
+            console.log('Button clicked')
+            document.getElementById('hh').innerHTML= 'JSON';    //It will not refresh the webpage and make the change.
+
+        }
+        let mybtn = document.getElementById('mybtn')
+        mybtn.addEventListener("click",myClickHnadler);
+
+        function myClickHnadler(){
+            console.log('This button was clicked')
+            let xhr = new XMLHttpRequest();
+           // xhr.open('GET','./ajaxdata.txt',true);
+           xhr.open('GET','https://jsonplaceholder.typicode.com/users/1',true)
+
+            xhr.onload = function()
+            {
+                // console.log(xhr.responseText);
+                let user = JSON.parse(xhr.responseText);
+                data = user.name;
+                document.getElementById('pp').innerHTML = data;
+
+            }
+            xhr.send();
+
+        }
+
+    </script>  
+</body>
+</html>

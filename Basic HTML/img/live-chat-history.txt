@@ -1,0 +1,37 @@
+﻿Nike Virtual Assistant: If you act fast you can cancel an order within 30 minutes of placing it. To cancel an order and get more information on our cancellation policies, the easiest way is to visit https://www.nike.com/help/a/change-cancel-order?sf-bot-link-type=CANCEL_URL
+Nike Virtual Assistant: Do you need further help?
+Nike Virtual Assistant: 
+Anupam Sharma: Yes, I want to chat with a Representative.
+Nike Virtual Assistant: I'm going to transfer you to a Nike Teammate who can help.
+Nike Virtual Assistant: What can my Teammate help you with?
+Anupam Sharma: Cancellation policy
+Nike Virtual Assistant: Got it. I'll transfer you now.
+
+It may take a moment for my Teammate to get up to speed.
+System Message: Your chat is being transferred. Please wait for the next available Athlete.
+System Message: You are being transferred to: Gus.
+Gus: Thanks for contacting Nike! My name is Gus, how can I help you?
+Anupam Sharma: Hey Gus I want to know cancellation policy
+Anupam Sharma: I have ordered shoes right now
+Gus: Hi Anupam, it's nice to have you here.
+Gus: We understand you want to know out cancellation terms and conditions.
+Gus: No worries, let me check here on my end.
+Anupam Sharma: Okay
+Gus: Can you share your order number please first?
+Anupam Sharma: G10115112681
+Gus: Thank you, it's for Nike Court Vision Low Next Nature Men's Shoes right?
+Anupam Sharma: Yes
+Gus: Thanks for confirming, that's a  great shoe. As per checking here on my end. Once we place an order we only have 30 minutes cancellation timeframe.
+Gus: If we have already passed it we are now unable to cancel your order. The only option to get a refund will be returning the order once received.
+Anupam Sharma: I have ordered right now
+Anupam Sharma: can you check if i can cancel
+Gus: Sure, you want me to cancel the order that you provided right?
+Anupam Sharma: Yeah cancel it . Please let know when i get refund
+Gus: Sure, please give me a sec to request a cancellation for this order. Good thing is we are still within 30 minutes.
+Gus: Thanks for waiting cancellation was successfully processed, again we're unable to undo the cancellation and rest assured that your funds will be generated back to you. Fund availability is determined by each bank but will typically be available within 5 business days.
+Gus: If the bank says they didn’t get notice of a cancellation, or if an authorization hold didn't drop after 5 business days, please contact us back to help you.
+Anupam Sharma: Okay
+Anupam Sharma: I will get my money
+Gus: Sure, you will. For now, is there anything else I can help you with?
+Anupam Sharma: No thank you
+Gus: You're most welcome Anupam, thank you for chatting Nike. Take it easy and have a great day! Stay safe always!

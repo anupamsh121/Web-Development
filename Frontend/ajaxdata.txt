@@ -1,0 +1,3 @@
+<h2 style = 'color:red'>  Ajax is used to perform asynchronous request</h2>
+<h2 style = 'color:blue'> Ajax enables a web application user to interact with a web page without the interruption of 
+constant web page reloading.</h2>

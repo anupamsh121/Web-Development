@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <style>
+        
+        table,
+        tr,
+        td {
+            border: 1px solid rgb(7, 7, 7);
+        }
+    </style>
+
+    <h1 style="text-align: center;">Login Form</h1>
+    <form action="#",onsubmit="return validate()">
+        <table>
+            <tr>
+                <td><label for="first_name">First Name:</label></td>
+                <td><input type="text" id="first_name" name="first_name" /></td>
+            </tr>
+            <tr>
+                <td><label for="last_name">Last Name:</label></td>
+                <td><input type="text" id="last_name" name="last_name" /></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" /></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone:</label></td>
+                <td><input type="tel" id="phone" name="phone" /></td>
+            </tr>
+            <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male" />
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" />
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other" />
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Courses:</label></td>
+                <td>
+                    <input type="radio" id="course1" name="courses" value="course1" />
+                    <label for="course1">Java</label>
+                    <input type="radio" id="course2" name="courses" value="course2" />
+                    <label for="course2">Python</label>
+                    <input type="radio" id="course3" name="courses" value="course3" />
+                    <label for="course3">HTML</label>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="submit">Submit</button></td>
+                <td><button type="reset">Reset</button></td>
+            </tr>
+            </form>
+        </table>
+        <br><br>
+        <script src="forms.js"></script>
+</body>
+</html>

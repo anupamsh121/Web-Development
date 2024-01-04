@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Sigmar&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* padding-top: 50px; */
+    font-family: 'Lato', sans-serif;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.outerbox{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left,lightblue,rgba(0, 0, 255, 0.477));
+    /* text-align: center;    */
+}
+.innerbox{
+    
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+    top: 55%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background: linear-gradient(to top left,#ffffff,#ffffff33);
+    backdrop-filter: (8px);
+    border-radius: 8px;
+    border: 3px brown;
+    box-shadow: 2px 2px 5px #216da0;
+    /* z-index: 2; */
+    
+    
+}
+.appname h1{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 2px white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 90px;
+}
+.appname p{
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 150px;
+}
+.signup-header{
+    padding-bottom:6px;
+    font-size: larger;
+
+}
+.signup-body{
+    margin: 10px 0px;
+}
+.signup-body p{
+    margin: 9px 0;
+
+}
+.signup-body label{
+    display: block;
+    font-size: large;
+    font-weight: 520;
+    
+}
+.signup-body p input{
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(249, 249, 248, 0.945);
+    border: 2px solid #cccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-top: 4px;
+}
+input[type=checkbox]{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.signup-body p input[type=submit]{
+    background-color: #3498db;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.signup-body p input[type=submit]:hover{
+    background-color: #216da0;
+}
+.signup-footer p{
+    color: #1a1a1af5;
+    text-align: center;
+
+}
+.signup-footer p a:hover{
+    color: #216da0;
+}
